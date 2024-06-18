@@ -1,0 +1,27 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    text-align: left;
+    float: left;
+    padding-left: 220px;
+}
+#heading{
+    float: left;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header{
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 450px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
