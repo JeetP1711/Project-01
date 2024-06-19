@@ -208,3 +208,19 @@ button:hover {
 .secp2 {
     width: 49%;
 }
+
+.price{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.price p{
+    font-size: 20px;
+    color: lightslategrey;
+}
+
+.price h2{
+    color: rgb(64, 74, 85);
+}
