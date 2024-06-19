@@ -1,6 +1,6 @@
 * {
     font-family: "Open Sans", sans-serif;
-    
+
 }
 
 ul {
@@ -114,82 +114,97 @@ button:hover {
     padding: 100px;
     font-weight: 600;
 }
-#i1{
+
+#i1 {
     background-color: #438EDE;
     border-radius: 100%;
     background-size: contain;
     height: 100px;
     width: auto;
 }
-.fs{
+
+.fs {
     width: 15%;
     height: 380px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 2px 2px 10px gray;
     display: inline-block;
-    margin-left: 20px ;
+    margin-left: 20px;
     padding: 50px;
 }
-.fs:hover{
+
+.fs:hover {
     border-color: white;
     box-shadow: 2px 2px 30px gray;
-    transition: box-shadow  .8s;
+    transition: box-shadow .8s;
 }
-.features{
+
+.features {
     display: flex;
     justify-content: center;
 }
-.but{
+
+.but {
     display: flex;
     justify-content: center;
 }
-.imgbg1{
+
+.imgbg1 {
     height: 500px;
     float: left;
     width: 50%;
     -webkit-mask-image: url(Images/Image\ Mask.png);
-   mask-image: url(Images/Image\ Mask\ 3.png);
-   -webkit-mask-size: cover;
-   mask-size: cover;
+    mask-image: url(Images/Image\ Mask\ 3.png);
+    -webkit-mask-size: cover;
+    mask-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.sec1, .sec2{
+
+.sec1,
+.sec2 {
     padding-top: 120px;
 }
-.secp1 h2{
+
+.secp1 h2 {
     font-size: 40px;
     color: rgb(64, 74, 85);
 }
-.secp1 h4{
+
+.secp1 h4 {
     font-size: 33px;
     color: gray;
 }
-.secp1 p{
+
+.secp1 p {
     font-size: 25px;
     color: lightslategrey;
 }
-.fs p{
+
+.fs p {
     color: lightslategrey;
     font-size: 20px;
 }
-.more{
+
+.more {
     color: #438EDE;
 }
-.imgbg2{
+
+.imgbg2 {
     height: 500px;
     float: right;
     width: 30%;
     /* background-image: url(Images/GirlPhone.avif); */
-   -webkit-mask-image: url(Images/Image\ Mask.png);
-   mask-image: url(Images/Image\ Mask\ 3.png);
-   -webkit-mask-size: cover;
-   mask-size: cover;
+    -webkit-mask-image: url(Images/Image\ Mask.png);
+    mask-image: url(Images/Image\ Mask\ 3.png);
+    -webkit-mask-size: cover;
+    mask-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box;
 }
-.secp2{
+
+.secp2 {
     width: 49%;
 }
