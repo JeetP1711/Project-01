@@ -148,7 +148,10 @@ button:hover {
     height: 500px;
     float: left;
     width: 50%;
-    background-image: url(Images/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+    -webkit-mask-image: url(Images/Image\ Mask.png);
+   mask-image: url(Images/Image\ Mask\ 3.png);
+   -webkit-mask-size: cover;
+   mask-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -177,9 +180,16 @@ button:hover {
 .imgbg2{
     height: 500px;
     float: right;
-    width: 50%;
-    background-image: url(Images/GirlPhone.avif);
+    width: 30%;
+    /* background-image: url(Images/GirlPhone.avif); */
+   -webkit-mask-image: url(Images/Image\ Mask.png);
+   mask-image: url(Images/Image\ Mask\ 3.png);
+   -webkit-mask-size: cover;
+   mask-size: cover;
     background-size: contain;
     background-repeat: no-repeat;
     background-origin: border-box;
+}
+.secp2{
+    width: 49%;
 }
