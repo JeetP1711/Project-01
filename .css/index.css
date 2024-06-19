@@ -207,6 +207,7 @@ button:hover {
 
 .secp2 {
     width: 49%;
+    padding-left: 40px;
 }
 
 .price{
@@ -223,4 +224,11 @@ button:hover {
 
 .price h2{
     color: rgb(64, 74, 85);
+}
+.pricetag{
+    width: 26%;
+    height: 200px;
+    border: 2px solid gray;
+    display: inline-block;
+    justify-content: center;
 }
