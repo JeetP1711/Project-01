@@ -71,6 +71,7 @@ button {
     /* margin-left: 44%; */
     /* margin-right: 50%; */
     border-radius: 30px;
+    font-size: 25px;
 }
 
 button:hover {
@@ -141,4 +142,31 @@ button:hover {
 .but{
     display: flex;
     justify-content: center;
+}
+.imgbg1{
+    height: 500px;
+    float: left;
+    width: 50%;
+    background-image: url(Images/jason-goodman-vbxyFxlgpjM-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec1{
+    padding-top: 120px;
+}
+.secp1 h2{
+    font-size: 40px;
+    color: rgb(64, 74, 85);
+}
+.secp1 h4{
+    font-size: 33px;
+    color: gray;
+}
+.secp1 p{
+    font-size: 25px;
+    color: lightslategrey;
+}
+.fs p{
+    color: lightslategrey;
+    font-size: 20px;
 }
