@@ -346,10 +346,10 @@ footer{
 }
 .foot2{
     width: 25%;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     padding-left: 10%;
 }
 .foot2 li{
-    /* display: flex; */
+    display: inline-block;
 }
