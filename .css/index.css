@@ -125,13 +125,14 @@ button:hover {
 
 .fs {
     width: 15%;
-    height: 380px;
+    height: 410px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 2px 2px 10px gray;
     display: inline-block;
     margin-left: 20px;
     padding: 50px;
+    overflow: auto;
 }
 
 .fs:hover {
@@ -231,4 +232,8 @@ button:hover {
     border: 2px solid gray;
     display: inline-block;
     justify-content: center;
+    background-color: #438EDE;
+}
+.dollar{
+    vertical-align: super;
 }
