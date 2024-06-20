@@ -255,7 +255,7 @@ button:hover {
 .description1{
     color:gray;
     text-align: center;
-    height: 500px;
+    height: auto;
     width: 100%;
     /* box-sizing: border-box; */
     /* border-radius: 20px; */
@@ -295,4 +295,22 @@ button:hover {
     font-size: 30px;
     text-align: center;
     color:rgb(115, 162, 248);
+}
+#verification{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+.insight{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(233, 243, 255);
+}
+.insight h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #438EDE;
+    display: inline-block
+    ;
 }
