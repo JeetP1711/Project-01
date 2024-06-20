@@ -211,29 +211,14 @@ button:hover {
     padding-left: 40px;
 }
 
-.price{
+.dummyheading1{
     text-align: center;
     font-size: 30px;
     padding-left: 20%;
     padding-right: 20%;
-}
-
-.price p{
-    font-size: 20px;
-    color: lightslategrey;
-}
-
-.price h2{
     color: rgb(64, 74, 85);
 }
-.pricetag{
-    width: 26%;
-    height: 200px;
-    border: 2px solid gray;
-    display: inline-block;
-    justify-content: center;
-    background-color: #438EDE;
-}
-.dollar{
-    vertical-align: super;
+.dummyp1{
+    font-size: 20px;
+    color: lightslategrey;
 }
