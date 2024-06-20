@@ -274,9 +274,9 @@ button:hover {
 .description1 li{
     display: block;
 }
-.prs{
-    /* border-radius: 20px 0px 20px 0px; */
-}
+/* .prs{
+    border-radius: 20px 0px 20px 0px;
+} */
 #testpic{
     display: inline-block;
     width: 100%;
@@ -290,4 +290,9 @@ button:hover {
     color: gray;
     padding-left: 30%;
     padding-right: 30%;
+}
+.testimonials h3{
+    font-size: 30px;
+    text-align: center;
+    color:rgb(115, 162, 248);
 }
