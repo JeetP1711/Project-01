@@ -331,3 +331,25 @@ button:hover {
     margin-top: -170px;
     margin-right: 40px;
 }
+.foot1{
+    width: 25%;
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 45px;
+}
+.foot1 p{
+    font-size: 20px;
+}
+footer{
+    background-color: purple;
+    color: azure;
+}
+.foot2{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.foot2 li{
+    /* display: flex; */
+}
