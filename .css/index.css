@@ -343,13 +343,13 @@ button:hover {
 footer{
     background-color: purple;
     color: azure;
+    display: flex;
 }
 .foot2{
     width: 25%;
-    display: inline-block;
-    flex-direction: column;
+    display: block;
     padding-left: 10%;
 }
 .foot2 li{
-    display: inline-block;
+    display: block;
 }
