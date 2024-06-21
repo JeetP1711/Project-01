@@ -349,7 +349,28 @@ footer{
     width: 25%;
     display: block;
     padding-left: 10%;
+    font-size: 20px;
+    padding-bottom: 2px;
 }
 .foot2 li{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+}
+.h3{
+    display: block;
+    font-size: 30px;
+    font: small-caps;
+    padding-top: 20px;
+}
+.lastfoot, .callus{
+    font-size: 20px;
+    width: 70%;
+}
+.callus, .emailus{
+    padding-top: 25px;
+}
+.num{
     display: block;
 }
