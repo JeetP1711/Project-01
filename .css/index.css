@@ -211,26 +211,29 @@ button:hover {
     padding-left: 40px;
 }
 
-.dummyheading1{
+.dummyheading1 {
     text-align: center;
     font-size: 30px;
     /* padding-left: 20%;
     padding-right: 20%; */
     color: rgb(64, 74, 85);
 }
-.dummyp1{
+
+.dummyp1 {
     font-size: 20px;
     color: lightslategrey;
     padding-left: 20%;
     padding-right: 20%;
 }
-.priceholder{
+
+.priceholder {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
-.pr{
+
+.pr {
     background-color: #438EDE;
     width: 20%;
     height: 200px;
@@ -238,22 +241,26 @@ button:hover {
     border: 2px solid black;
     margin: 20px;
 }
-.amount{
+
+.amount {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     color: azure;
     padding-top: 20px;
 }
-.dollar{
+
+.dollar {
     vertical-align: super;
 }
-.month{
+
+.month {
     vertical-align: sub;
     font-size: 20px;
 }
-.description1{
-    color:gray;
+
+.description1 {
+    color: gray;
     text-align: center;
     height: auto;
     width: 100%;
@@ -262,7 +269,8 @@ button:hover {
     /* border: 0px 2px 2px 2px solid white; */
     /* box-shadow: 2px 3px 12px grey; */
 }
-.m1{
+
+.m1 {
     font-size: 30px;
     display: block;
     color: goldenrod;
@@ -271,43 +279,50 @@ button:hover {
     text-align: center;
     margin: 2px;
 }
-.description1 li{
+
+.description1 li {
     display: block;
 }
+
 /* .prs{
     border-radius: 20px 0px 20px 0px;
 } */
-#testpic{
+#testpic {
     display: inline-block;
     width: 100%;
     height: 120px;
     padding-top: 450px;
 
 }
-.testimonials p{
+
+.testimonials p {
     text-align: center;
     font-size: 20px;
     color: gray;
     padding-left: 30%;
     padding-right: 30%;
 }
-.testimonials h3{
+
+.testimonials h3 {
     font-size: 30px;
     text-align: center;
-    color:rgb(115, 162, 248);
+    color: rgb(115, 162, 248);
 }
-#verification{
+
+#verification {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 5%;
 }
-.insight{
+
+.insight {
     width: 50%;
     height: auto;
     background-color: rgb(233, 243, 255);
 }
-.insight h3{
+
+.insight h3 {
     font-size: 23px;
     font-weight: 600;
     color: #438EDE;
@@ -315,7 +330,8 @@ button:hover {
     padding-left: 20%;
     padding-top: 40px;
 }
-.insight p{
+
+.insight p {
     font-size: 21px;
     font-weight: 500;
     color: lightsteelblue;
@@ -323,54 +339,67 @@ button:hover {
     padding-left: 20%;
     padding-bottom: 50px;
 }
-.insightm{
+
+.insightm {
     background-color: rgb(233, 243, 255);
 }
-.sales{
+
+.sales {
     float: right;
     margin-top: -170px;
     margin-right: 40px;
 }
-.foot1{
+
+.foot1 {
     width: 25%;
     display: inline-block;
     padding-left: 10%;
     font-size: 45px;
 }
-.foot1 p{
+
+.foot1 p {
     font-size: 20px;
 }
-footer{
+
+footer {
     background-color: purple;
     color: azure;
     display: flex;
 }
-.foot2{
+
+.foot2 {
     width: 25%;
     display: block;
     padding-left: 10%;
     font-size: 20px;
     padding-bottom: 2px;
 }
-.foot2 li{
+
+.foot2 li {
     display: block;
     text-align: left;
     font-size: 20px;
     padding: 4px;
 }
-.h3{
+
+.h3 {
     display: block;
     font-size: 30px;
     font: small-caps;
     padding-top: 20px;
 }
-.lastfoot, .callus{
+
+.lastfoot,
+.callus {
     font-size: 20px;
     width: 70%;
 }
-.callus, .emailus{
+
+.callus,
+.emailus {
     padding-top: 25px;
 }
-.num{
+
+.num {
     display: block;
 }
