@@ -1,0 +1,115 @@
+<div class="price" id="divprice"> 
+        <h2>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</h2>
+        <p>It Is A Long Established Fact That A Btn Btn-Defaulter Will Be Distracted By The Btn Btn-Defaultable Content
+            Of A Page When Looking At Its Layout. The Point Of Using Lorem Ipsum Is That It Has A More-Or-Less Normal
+            Distribution Of Letters,</p>
+        <div class="pricetag" id="pr1">
+            <section class="prs" id="pre1">
+                <span class="dollar">$</span>59<span class="montha">/MO</span> <SPAN class="business">BUSINESS</SPAN>
+            </section>
+            <section class="description1">
+                <ul>
+                    <li class="m1">Beginner</li>
+                    <li>1 GB of space</li>
+                    <li>Unlimited Traffic</li>
+                    <li>Forum Access</li>
+                    <li>Support at 25$/hour</li>
+                    <button type="button" class="plan">CHOOSE PLAN</button>
+                </ul>
+            </section>
+        </div>
+        <div class="pricetag" id="pr2">
+            <section class="prs" id="pre2">
+                <span class="dollar">$</span>59<span class="montha">/MO</span> <SPAN class="business">BUSINESS</SPAN>
+            </section>
+            <section class="description1">
+                <ul>
+                    <li class="m1">Advanced</li>
+                    <li>1 GB of space</li>
+                    <li>Unlimited Traffic</li>
+                    <li>Forum Access</li>
+                    <li>Support at 25$/hour</li>
+                    <button type="button" class="plan">CHOOSE PLAN</button>
+                </ul>
+            </section>
+        </div>
+        <div class="pricetag" id="pr3">
+            <section class="prs" id="pre3">
+                <span class="dollar">$</span>59<span class="montha">/MO</span> <SPAN class="business">BUSINESS</SPAN>
+            </section>
+            <section class="description1">
+                <ul>
+                    <li class="m1">Professional</li>
+                    <li>1 GB of space</li>
+                    <li>Unlimited Traffic</li>
+                    <li>Forum Access</li>
+                    <li>Support at 25$/hour</li>
+                    <button type="button" class="plan">CHOOSE PLAN</button>
+                </ul>
+            </section>
+        </div>
+    </div>
+    
+    style;;;;;;
+    .price{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.price p{
+    font-size: 20px;
+    color: lightslategrey;
+}
+
+.price h2{
+    color: rgb(64, 74, 85);
+}
+.pricetag{
+    width: 30%;
+    height: 200px;
+    border: 2px solid gray;
+    display: inline-block;
+    justify-content: center;
+    background-color: #438EDE;
+    font-weight: 700;
+    color: azure;
+    font-size: 50px;
+    padding-top: 35px;
+
+}
+.dollar{
+    vertical-align: super;
+}
+.montha{
+    vertical-align: sub;
+    font-size: 20px;
+}
+.business{
+    color: goldenrod;
+    font-size: 20px;
+    display: block;
+    padding-top: 30px;
+    margin: 2px;
+}
+.description1{
+    color:gray;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    border: 0px 2px 2px 2px solid white;
+    box-shadow: 2px 3px 12px grey;
+}
+.m1{
+    font-size: 30px;
+    display: block;
+}
+.description1 li{
+    display: block;
+}
+.prs{
+    border-radius: 20px 0px 20px 0px;
+}
